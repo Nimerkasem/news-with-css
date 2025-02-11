@@ -1,0 +1,152 @@
+/* עיצוב כללי */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #555;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1em;
+}
+
+/* גלריה */
+section.gallery {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+section.gallery figure {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+}
+
+section.gallery img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+section.gallery figcaption {
+    padding: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* כתבים */
+section.authors {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section.authors table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+section.authors table th, section.authors table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+section.authors table th {
+    background-color: #444;
+    color: #fff;
+}
+
+section.authors table td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* טופס */
+section.submit {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section.submit form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+section.submit form input, section.submit form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+section.submit form button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section.submit form button:hover {
+    background-color: #0056b3;
+}
+
+/* כותרת תחתונה */
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

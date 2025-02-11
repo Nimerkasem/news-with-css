@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>הצע כתבה</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>הצע כתבה</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">דף הבית</a></li>
+            <li><a href="articles.html">כתבות</a></li>
+            <li><a href="gallery.html">גלריה</a></li>
+            <li><a href="authors.html">כתבים</a></li>
+        </ul>
+    </nav>
+
+    <section class="submit">
+        <h2>הצע כתבה חדשה</h2>
+        <form>
+            <label for="name">שם מלא:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">אימייל:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="title">כותרת הכתבה:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="description">תיאור הכתבה:</label>
+            <textarea id="description" name="description" rows="5" required></textarea>
+
+            <button type="submit">שלח</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 חדשות עכשיו</p>
+    </footer>
+
+</body>
+</html>
